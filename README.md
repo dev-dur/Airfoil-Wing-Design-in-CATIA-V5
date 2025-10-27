@@ -72,3 +72,7 @@ Result: Each section appears in CATIA as a clean spline curve representing its a
 - Excel (VBA) for	CATIA macro execution and spline generation
 - AirfoilTools.com for Airfoil coordinate database
 - CSV Data for Raw coordinate input for airfoils
+
+---
+
+> ✨ *This project is part of my mechanical design portfolio — exploring advanced aerodynamic components using CATIA V5.*
