@@ -1,8 +1,7 @@
 # Airfoil Wing Design in CATIA V5
 ## Overview
-
-This project demonstrates the parametric 3D modeling of an aircraft wing using CATIA V5, where airfoil data from AirfoilTools is imported through an Excel-driven CATIA macro.
-The Excel file automates point generation and spline plotting in CATIA to form three airfoil sections (root, mid, and tip), which are later lofted into a complete wing geometry.
+This project demonstrates the parametric modeling of an aircraft wing using CATIA V5, where airfoil coordinate data was imported through an Excel-based CATIA macro.
+The objective was to design a three-section lofted wing with controlled taper, sweep, and section transitions, essential parameters in preliminary aircraft design.
 
 ## Design Parameters
 | Section  | Chord Length | Position (mm) | Sweep Offset (mm) | Notes                     |
