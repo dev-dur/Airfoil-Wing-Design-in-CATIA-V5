@@ -5,10 +5,11 @@ This project demonstrates the parametric 3D modeling of an aircraft wing using C
 The Excel file automates point generation and spline plotting in CATIA to form three airfoil sections (root, mid, and tip), which are later lofted into a complete wing geometry.
 
 ## Design Parameters
-- Section	Chord Length	Position (mm)	Sweep Offset	Notes
-- Root	200 mm	0 mm	0 mm	Base airfoil section
-- Mid	150 mm	400 mm	0 mm	Linear taper
-- Tip	50 mm	1200 mm	25 mm	12.4° sweep
+| Section  | Chord Length | Position (mm) | Sweep Offset (mm) | Notes                     |
+| -------- | ------------ | ------------- | ----------------- | ------------------------- |
+| **Root** | 200 mm       | 0             | 0                 | Base airfoil section      |
+| **Mid**  | 150 mm       | 400           | 0                 | Linear taper transition   |
+| **Tip**  | 50 mm        | 1200          | 25                | 12.4° swept trailing edge |
 
 - Taper Ratio: 0.25
 - Sweep Angle: 12.4°
