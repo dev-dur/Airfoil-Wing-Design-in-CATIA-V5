@@ -29,6 +29,7 @@ The objective was to design a three-section lofted wing with controlled taper, s
    - Communication with CATIA via CATIA API.
    - Creation of 3D points and splines from the airfoil data directly inside CATIA.
 - The macro was executed for all three airfoil sections (root, mid, and tip).
+
 Result: Each section appears in CATIA as a clean spline curve representing its airfoil profile.
 
 ### 3. Wing Construction in CATIA
@@ -46,7 +47,7 @@ Result: Each section appears in CATIA as a clean spline curve representing its a
     - Smoothness and continuity.
     - Proper alignment of section edges.
     - Correct geometric scaling and sweep.
-- The resulting wing geometry was saved as Airfoil_Wing.CATPart.
+- The resulting wing geometry was saved as airfoil.CATPart.
 
 ## Visual Results
 ### Preview
@@ -62,17 +63,12 @@ Result: Each section appears in CATIA as a clean spline curve representing its a
 <img width="1246" height="277" alt="tip" src="https://github.com/user-attachments/assets/298cf995-d6af-472a-8f6c-57fbb63bfad0" />
 
 ## What I Learned
-- How to automate airfoil plotting in CATIA using Excel VBA macros and the CATIA API.
 - Understanding the relationship between taper ratio, sweep angle, and spanwise geometry.
 - Handling coordinate-based modeling and precision scaling of airfoil sections.
-- Creating parametric lofted surfaces with smooth continuity between multiple profiles.
-- Structuring aerospace CAD projects for traceability and reproducibility.
+- Constructing multi-section lofts with smooth aerodynamic surfaces.
 
 ## Tools Used
 - CATIA V5 for Airfoil and wing 3D modeling
 - Excel (VBA) for	CATIA macro execution and spline generation
 - AirfoilTools.com for Airfoil coordinate database
 - CSV Data for Raw coordinate input for airfoils
-
-(Replace these with your own CATIA screenshots)
-![Lofted Wing Render](assets/final_render.png)
