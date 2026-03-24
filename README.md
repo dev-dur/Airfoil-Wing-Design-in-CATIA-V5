@@ -74,5 +74,3 @@ Result: Each section appears in CATIA as a clean spline curve representing its a
 - CSV Data for Raw coordinate input for airfoils
 
 ---
-
-> ✨ *This project is part of my mechanical design portfolio — exploring advanced aerodynamic components using CATIA V5.*
